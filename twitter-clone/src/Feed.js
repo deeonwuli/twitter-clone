@@ -18,13 +18,16 @@ function Feed() {
             <Post />
             
             {/* Post */}
+            <Post />
 
             {/* Post */}
+            <Post />
 
             {/* Post */}
+            <Post />
+
             {/* Post */}
-            {/* Post */}
-            {/* Post */}            
+            <Post />0           
         </div>
     )
 }

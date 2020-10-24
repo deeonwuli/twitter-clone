@@ -19,29 +19,29 @@ function Post(
         <div className='post'>
            <div className='post__avatar'>
                 <Avatar src='https://i1.rgstatic.net/ii/profile.image/857857436164097-1581540559744_Q512/Chukwudumebi_Onwuli.jpg'></Avatar>
-                <div className='post__body'>
-                    <div className='post__header'>
-                        <div className='post__headerText'>
-                            <h3>
-                                duby doll {' '} 
-                                <span>
-                                    <VerifiedUserIcon className='post__badge' /> @deeonwuli
-                                </span>
-                            </h3>
-                        </div>
-                        <div className='post_headerDescription'>
-                            <p>I'm packing lol.</p>
-                        </div>
+            </div>
+            <div className='post__body'>
+                <div className='post__header'>
+                    <div className='post__headerText'>
+                        <h3>
+                            duby doll {' '} 
+                            <span className='post__headerSpecial'>
+                                <VerifiedUserIcon className='post__badge' /> @deeonwuli
+                            </span>
+                        </h3>
                     </div>
-                    <img alt='' src='https://media2.giphy.com/media/XDMJEpbNghQbFFIk3v/200w.webp?cid=ecf05e47gp1zcv96sr44wyicnd5sgyq661uytmarbp5xe5k1&rid=200w.webp'></img>
-                    <div className='post__footer'>
-                        <ChatBubbleOutlineIcon />
-                        <RepeatIcon />
-                        <FavoriteBorderIcon />
-                        <PublishIcon />
+                    <div className='post_headerDescription'>
+                        <p>I'm packing lol.</p>
                     </div>
                 </div>
-            </div> 
+                <img alt='' src='https://media.giphy.com/media/0VWIQBO18LOD1Yx1LO/giphy.gif'></img>
+                <div className='post__footer'>
+                    <ChatBubbleOutlineIcon fontSize='small' />
+                    <RepeatIcon fontSize='small' />
+                    <FavoriteBorderIcon fontSize='small' />
+                    <PublishIcon fontSize='small' />
+                </div>
+            </div>
         </div>
     )
 }
