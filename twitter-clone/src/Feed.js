@@ -15,19 +15,14 @@ function Feed() {
             <Tweetbox />
 
             {/* Post */}
-            <Post />
-            
-            {/* Post */}
-            <Post />
-
-            {/* Post */}
-            <Post />
-
-            {/* Post */}
-            <Post />
-
-            {/* Post */}
-            <Post />0           
+            <Post 
+                displayName='krumdump' 
+                username='krumdumpster' 
+                verified={true} 
+                text='boats boats boats' 
+                avatar='https://pbs.twimg.com/profile_images/1257953136448331776/XXd_k_Eh_bigger.jpg'
+                image='https://media.giphy.com/media/XDMJEpbNghQbFFIk3v/giphy.gif'
+            />     
         </div>
     )
 }
